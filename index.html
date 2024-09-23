@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <img src="./assets/images/logo.png" alt="" style="height: 40px;">
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list"></li>
+                    <a href="#education" class="nav-link">Education</a>
+                    <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Experience</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-actions"> <!-- Wrapper for nav-button and toggle button -->
+                <div class="nav-button dark-mode-toggle">
+                    <button class="btn" id="dark-mode-btn">
+                    </button>
+                </div>
+
+                <div class="nav-menu-btn">
+                    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Nasir</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced frontend developer with a passion for creating visually stunning
+                            and user-friendly websites.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <a href="./assets/resume/Ns_CV.pdf" class="download-link btn" download>
+                            Download CV <i class="uil uil-file-alt"></i>
+                        </a>
+                    </div>
+
+
+                    <div class="social_icons">
+                        <a href="https://www.instagram.com/na_sir_ns?igsh=dWN0MWsycG15Z2dq"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+                        <a href="https://www.linkedin.com/in/naseer-uddin-238446241"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                        <a href=""><div class="icon"><i class="uil uil-facebook-f"></i></div></a>
+                        <a href="https://github.com/naseer009"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/images/avatar.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p> I am a skilled Front-End Web Developer and Flutter Flow expert with a passion for
+                                creating seamless, responsive, and visually appealing user interfaces. With expertise in
+                                HTML, CSS, and JavaScript. Whether working on web development projects or creating
+                                robust mobile solutions, I am dedicated to delivering high-quality results that meet
+                                client and user needs.
+
+
+                            </p>
+                            <div class="about-btn">
+                                <a href="./assets/resume/Ns_CV.pdf" class="download-link" download>
+                                    <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend Web Developer</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+
+                            </div>
+                        </div>
+
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>FlutterFlow Expert</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>UI-UX Design</span>
+                                <span>iOS and Android apps</span>
+                                <span>API Integration</span>
+                                <span>Firebase</span>
+                                <span>No Code Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- -------------- Education and achievements Box ---------------- -->
+            <section class="section" id="education">
+                <div class="top-header">
+                    <h1>Academic Qualifications & Achievements</h1><br>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>My Achievements</h3>
+                            </div>
+                            <div class="skills-list">
+                                <div class="achievement">
+                                    <h4>Completed Front-end Development Training <button class="toggle-btn">-</button>
+                                    </h4>
+                                    <p class="achievement-detail open">
+                                        Completed a comprehensive 6-month front-end development training at Techzoid,
+                                        gaining hands-on experience with HTML, CSS, Bootstrap, and JavaScript.
+                                    </p>
+                                </div>
+                                <div class="achievement">
+                                    <h4>Basics of Python Certification <button class="toggle-btn">+</button></h4>
+                                    <p class="achievement-detail">
+                                        Earned a Basics of Python certificate from UniAthena, in collaboration with
+                                        Cambridge International Qualification, UK, covering core Python concepts like
+                                        data types, control structures, and functions.
+                                    </p>
+                                </div>
+                                <div class="achievement">
+                                    <h4>Artificial Intelligence and Data Science Specialization <button
+                                            class="toggle-btn">+</button></h4>
+                                    <p class="achievement-detail">
+                                        Specialized in Artificial Intelligence and Data Science through a 6-month
+                                        intensive course at GB's IT Department under NUST faculty, receiving a
+                                        certificate for expertise in machine learning, data analysis, and statistical
+                                        modeling.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="education-info">
+                            <div class="education-heading">
+                                <h4> My Education</h4>
+
+                            </div>
+                            <div class="inner-education">
+                                <h4> <span>✔ </span>BS Information Technology</h4>
+                                <div class="flex-container">
+                                    <p>Karakorum International University</p>
+                                    <span>2021 - 2025</span>
+                                </div>
+                                <br>
+
+                                <h4><span>✔ </span>FSc (ICs)</h4>
+                                <div class="flex-container">
+                                    <p>The GCCE College, Gilgit</p>
+                                    <span>2019 - 2021</span>
+                                </div>
+                                <br>
+
+                                <h4><span>✔ </span>Matriculation</h4>
+                                <div class="flex-container">
+                                    <p>Sedna school & college, Gilgit</p>
+                                    <span>2017 - 2019</span>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Experience</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Team Works</h3>
+                        <label>I thrive in collaborative environments, where I can contribute my skills while learning
+                            from others.</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-html5"></i>
+                        <h3>Front End</h3>
+                        <label>3+ years experience</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-mobile-android"></i>
+                        <h3>FlutterFlow</h3>
+                        <label>1 Year work experience</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: naseerudeen009@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: +92355 5834981</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name" required>
+                                <input type="email" class="input-field" placeholder="Email" required>
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn" id="sendButton">Send <i class="uil uil-message"></i></button>
+                                <div id="contactOptions" style="display: none;">
+                                    <button class="btn" id="whatsappButton">WhatsApp</button>
+                                    <button class="btn" id="gmailButton">Gmail</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+           
+
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Nasir U Deen .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Experience</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com/na_sir_ns?igsh=dWN0MWsycG15Z2dq"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+                <a href="https://www.linkedin.com/in/naseer-uddin-238446241"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                <a href=""><div class="icon"><i class="uil uil-facebook-f"></i></div></a>
+                <a href="https://github.com/naseer009"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Nasir U deen</a> - All rights
+                    reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+
+
+    <!-- darkmode js -->
+
+
+
+
+</body>
+
+</html>
