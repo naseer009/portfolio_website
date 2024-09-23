@@ -225,4 +225,27 @@ document.getElementById('gmailButton').addEventListener('click', function() {
   }
 });
 
+
+// Show button after scrolling down 300px
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  var goToTopBtn = document.getElementById("goToTopBtn");
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      goToTopBtn.style.display = "block";
+  } else {
+      goToTopBtn.style.display = "none";
+  }
+}
+
+// Smooth scroll to the top
+function scrollToTop() {
+  window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+  });
+}
+
       
